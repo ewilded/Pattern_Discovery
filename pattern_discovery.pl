@@ -3,7 +3,6 @@ use strict;
 use feature 'say';
 ## Simple pattern discovery script by ewilded
 # Script discovers how many unique patterns appear in the log file. Patterns are distinguished based on the amount of sections representing normal words.
-# All log lines intended for analysis come into standard input.
 
 
 my $cnt=0;
